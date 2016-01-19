@@ -4,8 +4,9 @@
  **/
 var arr = [1, 3, 2, 4, 3, 5, 2, 9, 1]; 
 
-arr.reverse().filter(function (e, i, arr) {
+arr = arr.reverse().filter(function (e, i, arr) {
     return arr.indexOf(e, i+1) === -1;
 }).reverse();
 
 console.log(arr);
+// Output: [1, 3, 2, 4, 5, 9]
