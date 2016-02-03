@@ -6,3 +6,6 @@ I have to face different small programming problems or interesting code challeng
 
 ## `JavaScript` Snippets
 * [Remove duplicates from array](https://github.com/ghumkumar/code_snippets/blob/master/array_unique.js)
+
+## `CSS` Snippets
+* [CSS Clearfix](https://github.com/ghumkumar/code_snippets/blob/master/clearfix.css)
