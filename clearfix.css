@@ -1,0 +1,16 @@
+/**
+ * CSS Clearfix
+ * Usage: <div class="clearfix"></div>
+ **/
+.clearfix:before,
+.clearfix:after {
+    content:"";
+    display:table;
+}
+.clearfix:after {
+    clear:both;
+}
+/* For IE 6/7 (trigger hasLayout) */
+.clearfix {
+    zoom:1;
+}
